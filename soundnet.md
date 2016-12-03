@@ -16,6 +16,7 @@ trained on ImageNet and Places into the SoundNet by minimizing KL divergence bet
 ![](https://cloud.githubusercontent.com/assets/7057863/20856609/05fe12d6-b94e-11e6-8c92-995ee84fe0d7.png)
 - Two reasons to use CNN for sound: 1. invariant to translations; 2. stacking layers to detect higher-level concepts.
 - **???** To handle variable-temporal-length of input sound, this model uses a fully convolutional network and produces an output over multiple timesteps in video.
+- ***???*** Not clear about the data augmentation technique used in training.
 
 ### Exp
 
