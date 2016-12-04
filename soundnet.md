@@ -27,4 +27,4 @@ performs poorly due to overfitting.
 - Multi-modal recognition models use visual and sound data together yields 2% gain in classification accuracy.
 
 ### Thought
-I think this paper is really complete since it contains good intuition, ablation analysis, representation visualization, hidden unit visualization, and good numbers on multiple experiments.
+I think this paper is really complete since it contains good intuition, ablation analysis, representation visualization, hidden unit visualization, and significent performance imporvements.
