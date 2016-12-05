@@ -9,6 +9,7 @@ scene classification task.
 
 - The natural synchronization between vision and sound can be leveraged as a supervision signal for each other.
 - Cross-modal learning can overcome overfitting if the target modal have much fewer data than other modals, which is essential for deep networks to work well.
+- In the sound classification task, **pool5** and **conv6** extracted from SoundNet achieve best performance.
 
 ### Model
 - The authors proposed a student-teacher training procedure to transfer discriminative visual knowledge from visual recognition models 
