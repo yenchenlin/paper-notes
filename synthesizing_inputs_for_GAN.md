@@ -15,7 +15,7 @@ By visualizing synthesized images that highly activate particular neurons in the
 
 ### Model
 
-https://cloud.githubusercontent.com/assets/7057863/21002626/b094d7ae-bd61-11e6-8c95-fd4931648426.png
+![](https://cloud.githubusercontent.com/assets/7057863/21002626/b094d7ae-bd61-11e6-8c95-fd4931648426.png)
 
 ### Thought
 Solid paper with diverse visualizations and thorough analysis.
