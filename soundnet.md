@@ -16,8 +16,7 @@ scene classification task.
 trained on ImageNet and Places into the SoundNet by minimizing KL divergence between their predictions.
 ![](https://cloud.githubusercontent.com/assets/7057863/20856609/05fe12d6-b94e-11e6-8c92-995ee84fe0d7.png)
 - Two reasons to use CNN for sound: 1. invariant to translations; 2. stacking layers to detect higher-level concepts.
-- **???** To handle variable-temporal-length of input sound, this model uses a fully convolutional network and produces an output over multiple timesteps in video.
-- ***???*** Not clear about the data augmentation technique used in training.
+
 
 ### Exp
 
@@ -29,3 +28,7 @@ performs poorly due to overfitting.
 
 ### Thought
 I think this paper is really complete since it contains good intuition, ablation analysis, representation visualization, hidden unit visualization, and significent performance imporvements.
+
+### Questions
+- Although paper said that "To handle variable-temporal-length of input sound, this model uses a fully convolutional network and produces an output over multiple timesteps in video.", but the code seems to set the length of each excerpts fixed to 5 seconds.
+- It looks not clear for me about the data augmentation technique used in training.
