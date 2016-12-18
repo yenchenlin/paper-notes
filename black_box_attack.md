@@ -12,6 +12,7 @@ Since adversarial examples transfer between architectures, we can
 1. learning a substitute DNN approximating the target using a dataset constructed with synthetic inputs and labels observed from the oracle
 2. Craft adversarial example using this substitute
 
+Generally, the goal of the adversary is to produce a **minimally** altered, i.e., imperceptible, version of input which will be misclassifyed by target model.
 
 ### Exp
 
