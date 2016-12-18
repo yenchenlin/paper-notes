@@ -8,6 +8,7 @@ the targeted oracle model to reduce its vulnerability
 
 ### Method
 Since adversarial examples transfer between architectures, we can 
+
 1. learning a substitute DNN approximating the target using a dataset constructed with synthetic inputs and labels observed from the oracle
 2. Craft adversarial example using this substitute
 
