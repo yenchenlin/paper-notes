@@ -9,8 +9,8 @@ the targeted oracle model to reduce its vulnerability
 ### Method
 Since adversarial examples transfer between architectures, we can 
 
-1. learning a substitute DNN approximating the target using a dataset constructed with synthetic inputs and labels observed from the oracle
-2. Craft adversarial example using this substitute
+1. Substitute Model Training: learn a substitute DNN approximating the target using a dataset constructed with synthetic inputs and labels observed from the oracle
+2. Adversarial Sample Crafting: craft adversarial example using the substitute trained by first step
 
 Generally, the goal of the adversary is to produce a **minimally** altered, i.e., imperceptible, version of input which will be misclassifyed by target model.
 
