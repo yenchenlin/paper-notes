@@ -3,8 +3,8 @@
 
 ### Key Points
 - This paper attacks against black-box DNN classifiers without knowledge of the classifier training data or model.
-- The adversary has no knowledge of the architectural choices made to design the DNN, which include the number, type, and size of layers, 
-nor of the training data used to learn the DNN’s parameters.
+- The black-box attack evades defenses proposed in the literature because the substitute trained by the adversary is unaffected by defenses deployed on
+the targeted oracle model to reduce its vulnerability
 
 ### Model
 
