@@ -20,4 +20,12 @@ Normal GANs use a simple factored continuous input noise vector z, while imposin
 - What does it mean by "even though it is easy to construct perfect generative models with arbitrarily bad representations"?
 
 ### References 
-http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
+http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice
+
+### Preliminaries
+Mutual information `I(X;Y)`, measures the **amount of information** learned from knowledge of random variable Y about the other random variable X. 
+
+It can be expressed as the difference of two entropies terms:
+```
+I(X; Y ) = H(X)   H(X|Y ) = H(Y )   H(Y |X)
+```
