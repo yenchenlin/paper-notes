@@ -1,34 +1,21 @@
 ## [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/abs/1703.03400)
 
-This paper developed a semantically rich representation for natural sound using unlabeled videos as a bridge to 
-transfer discriminative visual knowledge from well-established visual recognition models into the sound modality.
-The learned sound representation yields significant performance improvements on standard benchmarks for acoustic 
-scene classification task.
+The authors propose an algorithm for meta-learning that is compatible with any model trained with gradient descent, and show that it works on various domain including supervised learning and reinforcement learning. This is done by explicitly train the network such that a small number of gradient steps with a small amount of training data from a new task will produce good generalization performance on that task.
 
 ### Key Points
 
-- The natural synchronization between vision and sound can be leveraged as a supervision signal for each other.
-- Cross-modal learning can overcome overfitting if the target modal have much fewer data than other modals, which is essential for deep networks to work well.
-- In the sound classification task, **pool5** and **conv6** extracted from SoundNet achieve best performance.
+- MAML is actually finding a good *initialization* of model parameters for several tasks.
+- Good initialization of parameters means that it can achieve good performance on several tasks with small number of gradient steps.
 
 ### Model
-- The authors proposed a student-teacher training procedure to transfer discriminative visual knowledge from visual recognition models 
-trained on ImageNet and Places into the SoundNet by minimizing KL divergence between their predictions.
-![](https://cloud.githubusercontent.com/assets/7057863/20856609/05fe12d6-b94e-11e6-8c92-995ee84fe0d7.png)
-- Two reasons to use CNN for sound: 1. invariant to translations; 2. stacking layers to detect higher-level concepts.
+- .
 
 
 ### Exp
 
-- Adding a linear SVM upon representation learned from SoundNet outperforms other existing methods 10%.
-- Using lots of unlabeled videos as supervision signals enable the deeper SoundNet to work, or otherwise the 8-layer networks 
-performs poorly due to overfitting.
-- Simultaneous Using Places and ImageNet as supervision beats using only one of them 3%.
-- Multi-modal recognition models use visual and sound data together yields 2% gain in classification accuracy.
+- 
 
 ### Thought
-I think this paper is really complete since it contains good intuition, ablation analysis, representation visualization, hidden unit visualization, and significent performance imporvements.
+I think the method is useful and the experiments are thorough. However, the method is not novel provided that Ravi & Hugo et al. already propose to learn parameters initialization.
 
 ### Questions
-- Although paper said that "To handle variable-temporal-length of input sound, this model uses a fully convolutional network and produces an output over multiple timesteps in video.", but the code seems to set the length of each excerpts fixed to 5 seconds.
-- It looks not clear for me about the data augmentation technique used in training.
