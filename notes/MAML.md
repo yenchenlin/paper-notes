@@ -4,7 +4,7 @@ The authors propose an algorithm for meta-learning that is compatible with any m
 
 ### Key Points
 
-- MAML is actually finding a good *initialization* of model parameters for several tasks.
+- MAML is actually finding a good **initialization** of model parameters for several tasks.
 - Good initialization of parameters means that it can achieve good performance on several tasks with small number of gradient steps.
 
 ### Model
