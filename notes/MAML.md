@@ -7,8 +7,15 @@ The authors propose an algorithm for meta-learning that is compatible with any m
 - MAML is actually finding a good **initialization** of model parameters for several tasks.
 - Good initialization of parameters means that it can achieve good performance on several tasks with small number of gradient steps.
 
-### Model
-- .
+### Method
+- Simultaneously optimize the **initialization** of model parameters of different meta-training tasks, hoping that it can quickly adapt to new meta-testing tasks.
+
+![https://cloud.githubusercontent.com/assets/7057863/25161911/46f2721e-24f1-11e7-9fba-8bc2f0782204.png]
+
+- Training procedure:
+
+![](https://cloud.githubusercontent.com/assets/7057863/25161749/8d00902a-24f0-11e7-93a8-6a9b74386f55.png)
+
 
 
 ### Exp
@@ -16,6 +23,6 @@ The authors propose an algorithm for meta-learning that is compatible with any m
 - 
 
 ### Thought
-I think the method is useful and the experiments are thorough. However, the method is not novel provided that Ravi & Hugo et al. already propose to learn parameters initialization.
+I think the experiments are thorough since they proved that this technique can be applied to both supervised and reinforcement learning. However, the method is not novel provided that [Optimization a A Midel For Few-shot Learning](https://openreview.net/pdf?id=rJY0-Kcll) already proposed to learn initialization of parameters.
 
 ### Questions
