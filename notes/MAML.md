@@ -10,7 +10,7 @@ The authors propose an algorithm for meta-learning that is compatible with any m
 ### Method
 - Simultaneously optimize the **initialization** of model parameters of different meta-training tasks, hoping that it can quickly adapt to new meta-testing tasks.
 
-![https://cloud.githubusercontent.com/assets/7057863/25161911/46f2721e-24f1-11e7-9fba-8bc2f0782204.png]
+![](https://cloud.githubusercontent.com/assets/7057863/25161911/46f2721e-24f1-11e7-9fba-8bc2f0782204.png)
 
 - Training procedure:
 
