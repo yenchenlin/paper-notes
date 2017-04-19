@@ -20,9 +20,7 @@ The authors propose an algorithm for meta-learning that is compatible with any m
 
 ### Exp
 
-- 
+- It acheived performance that is comparable to the state-of-the-art on classification/regression/reinforcement learning tasks.
 
 ### Thought
 I think the experiments are thorough since they proved that this technique can be applied to both supervised and reinforcement learning. However, the method is not novel provided that [Optimization a A Midel For Few-shot Learning](https://openreview.net/pdf?id=rJY0-Kcll) already proposed to learn initialization of parameters.
-
-### Questions
