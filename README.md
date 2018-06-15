@@ -1,5 +1,8 @@
 # deep-learning-paper-notes
 
+### 2018 / 06
+- Investigating Human Priors For Playing Video Games
+
 ### 2017 / 04
 
 - [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/MAML.md)
