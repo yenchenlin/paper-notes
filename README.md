@@ -1,14 +1,14 @@
 # deep-learning-paper-notes
 
+### 2018 / 07
+- [A Brief Introduction to Adversarial Examples](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/adversarial_intro.md)
+
 ### 2018 / 06
 - Investigating Human Priors For Playing Video Games
 
-### 2017 / 04
+### Before 2018
 
 - [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/MAML.md)
-
-### 2016 / 11
-
 - [SoundNet: Learning Sound Representations from Unlabeled Video](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/soundnet.md)
 - [Synthesizing the preferred inputs for neurons in neural networks via deep generator networks](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/synthesizing_inputs_for_GAN.md)
 - [Generating Images with Perceptual Similarity based on Deep Networks](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/perceptual_similarity.md)
