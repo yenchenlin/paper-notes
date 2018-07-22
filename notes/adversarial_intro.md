@@ -4,23 +4,10 @@ The authors briefly introduce the definitoin of adversarial examples and **why i
 
 ### Key Points
 
-- Beyond security, studying adversarial examples can provide us insight on a) robustness of ML-based system, b) difference between ML-based system and human esp. when lots of papers are claiming surpassing-human performance these days.
-- Adversarial examples are beyond image classification. They also appear in other important applications such as speech recognition, question answering system, ... etc.
+- Beyond security, studying adversarial examples can provide us insight on 
+  - Robustness of ML-based system
+  - Difference between ML-based system and human. (e.g., many models have achieved human-surpassing performance but not robust to small perturbation, which means that ML-based system works very differently compared to human.)
+- Adversarial examples are beyond image classification. They also appear in other important applications such as speech recognition, question answering system.
 
-### Method
-- Simultaneously optimize the **initialization** of model parameters of different meta-training tasks, hoping that it can quickly adapt to new meta-testing tasks.
-
-![](https://cloud.githubusercontent.com/assets/7057863/25161911/46f2721e-24f1-11e7-9fba-8bc2f0782204.png)
-
-- Training procedure:
-
-![](https://cloud.githubusercontent.com/assets/7057863/25161749/8d00902a-24f0-11e7-93a8-6a9b74386f55.png)
-
-
-
-### Exp
-
-- It acheived performance that is comparable to the state-of-the-art on classification/regression/reinforcement learning tasks.
-
-### Thought
-I think the experiments are thorough since they proved that this technique can be applied to both supervised and reinforcement learning. However, the method is not novel provided that [Optimization a A Midel For Few-shot Learning](https://openreview.net/pdf?id=rJY0-Kcll) already proposed to learn initialization of parameters.
+### My two cents
+I really like how this post motivates why studying adversarial examples is important beyond security concerns. In addition, the authors enumerate lots of interesting examples with references (e.g., [Do neural nets dream of electric sheep?](http://aiweirdness.com/post/171451900302/do-neural-nets-dream-of-electric-sheep), [The Shallowness of Google Translate](https://www.theatlantic.com/technology/archive/2018/01/the-shallowness-of-google-translate/551570/), and [Adversarial examples in the context of GMail spam filtering](https://elie.net/blog/ai/attacks-against-machine-learning-an-overview)) to illustrate their argument, which makes their points really convincing.
