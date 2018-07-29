@@ -43,7 +43,7 @@ model of the world. This suggests the existence of a more primitive process for 
 interaction with the world. Reinforcement learning is the name we use for this more primitive, direct kind of trying,
 and Dyna is the extension of reinforcement learning to include a learned world model.
 
-This is very intuitive, see this [funny birds video](https://www.youtube.com/watch?v=LI92DLRdKYE) for how helpful if you think before you act :)
+This is very intuitive, see this [funny birds video](https://www.youtube.com/watch?v=LI92DLRdKYE) for how important to think before you act :)
 
 Finally, from the perspective of Data Science [2]: 
 
