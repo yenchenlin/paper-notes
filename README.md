@@ -1,6 +1,7 @@
 # deep-learning-paper-notes
 
 ### 2018 / 07
+- [Part 1 of An Outsider’s Tour of Reinforcement Learning - Make It Happen](http://www.argmin.net/2018/01/29/taxonomy/)
 - [A Brief Introduction to Adversarial Examples](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/adversarial_intro.md)
 
 ### 2018 / 06
