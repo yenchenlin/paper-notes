@@ -49,9 +49,9 @@ Finally, from the perspective of Data Science [2]:
 
 > prescriptive analytics is about helping you see what the probable outcome relies on each decision. That helps you to decide what business decision to make.
 
-According to this definition, it's clear that generative modeling lies at the heart of prescriptive analytics and directly classifying unsupervised learning into descriptive analytics is unfair.
+According to this definition, it's clear that generative modeling lies at the heart of prescriptive analytics and directly classifying unsupervised learning as a whole into descriptive analytics is unfair.
 
-In conclusion, I think it's inappropriate to argue that a) Unsupervised Learning has lower values compared to RL and b) draw one-to-one connection between the three regimes in ML and Data Science. Different regimes in ML are actually complementary to each other to enable **Prescriptive Analytics**.
+In conclusion, I think it's inappropriate to argue that a) Unsupervised Learning has lower values compared to RL and b) there is an one-to-one connection between the three regimes in ML and Data Science. Different regimes in ML are actually complementary to each other in order to build **Prescriptive Analytics**.
 
 What are some more inspirations we can draw from the field of Data Science? According to [3], expert recently postulated that **Automated Analytics** is a further extension to **Prescriptive Analytics**, eliminating the need for the human to make the final decision according to prescriptive analytics. In my opinion, as functions produced by machine learning algorithms gradually get used in important applications, their security and robustness becomes more crucial than ever before. More advances in ML safety would be essential for **Automated Analytics**.
 
