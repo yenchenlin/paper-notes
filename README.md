@@ -1,4 +1,4 @@
-# deep-learning-paper-notes
+# paper-notes
 
 ### 2018 / 07
 - [Part 1 of An Outsider’s Tour of Reinforcement Learning - Make It Happen](http://www.argmin.net/2018/01/29/taxonomy/)
