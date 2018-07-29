@@ -58,5 +58,7 @@ What are some more inspirations we can draw from the field of Data Science? Acco
 ### Reference
 
 [1] [Reinforcement Learning with Unsupervised Auxiliary Tasks](https://arxiv.org/abs/1611.05397)
+
 [2] [Why Prescriptive Analytics Is the Future of Big Data](https://www.linkedin.com/pulse/why-prescriptive-analytics-future-big-data-mark-van-rijmenam/)
+
 [3] [Predictive Analytics - A Case For Private Equity?](https://www.forbes.com/sites/lutzfinger/2015/02/10/predictive-analytics-case-for-private-equity/#234d26097584)
