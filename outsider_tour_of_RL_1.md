@@ -45,6 +45,8 @@ and Dyna is the extension of reinforcement learning to include a learned world m
 
 This is very intuitive, see this [funny birds video](https://www.youtube.com/watch?v=LI92DLRdKYE) for how important to think before you act :)
 
+Moreover, generative model for exploration in RL[4] and provides a different paradigm to implement cognitive science-motivated behaviorl learning[5].
+
 Finally, from the perspective of Data Science [2]: 
 
 > prescriptive analytics is about helping you see what the probable outcome relies on each decision. That helps you to decide what business decision to make.
@@ -62,3 +64,7 @@ What are some more inspirations we can draw from the field of Data Science? Acco
 [2] [Why Prescriptive Analytics Is the Future of Big Data](https://www.linkedin.com/pulse/why-prescriptive-analytics-future-big-data-mark-van-rijmenam/)
 
 [3] [Predictive Analytics - A Case For Private Equity?](https://www.forbes.com/sites/lutzfinger/2015/02/10/predictive-analytics-case-for-private-equity/#234d26097584)
+
+[4] [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/abs/1705.05363)
+
+[5] [Zero-Shot Visual Imitation](https://arxiv.org/abs/1804.08606)
