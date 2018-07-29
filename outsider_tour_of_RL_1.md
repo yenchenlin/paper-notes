@@ -1,10 +1,13 @@
 ## [Make It Happen](http://www.argmin.net/2018/01/29/taxonomy/)
 
-The author motivates why RL is important compared to supervised and unsupervised learning.
+The author motivates why RL is harder and more important than supervised and unsupervised learning.
 
 ### Key Points
 
+- Here is the taxonomy of ML
+
 <img src="https://user-images.githubusercontent.com/7057863/43361654-58b1aed6-9307-11e8-8431-692880d1940d.png" alt="drawing" width="400px"/>
+- 
 <img src="https://user-images.githubusercontent.com/7057863/43361653-579f3e50-9307-11e8-944f-d62ca11c92b1.png" alt="drawing" width="400px"/>
 
 - 
