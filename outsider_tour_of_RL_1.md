@@ -8,8 +8,8 @@ The author motivates why RL is harder and more important than supervised and uns
 
 <img src="https://user-images.githubusercontent.com/7057863/43361654-58b1aed6-9307-11e8-8431-692880d1940d.png" alt="drawing" width="400px"/>
 
-- It turns out the field of Data Science has terminology for this trichotomy as well:
-  - **Descriptive Analytics**: summarizing data in a way to make it more interpretable, similar to **Unsupervised Learning**.
+- Coincidentally, it turns out the field of Data Science also has terminology for this trichotomy:
+  - **Descriptive Analytics**: summarizing data to make it more interpretable, similar to **Unsupervised Learning**.
   - **Predictive Analytics**: estimating outcomes from current data, similar to **Supervised Learning**.
   - **Prescriptive Analytics**: guiding actions to achieve the goal, similar to **Reinforcement Learning**.
 
