@@ -36,14 +36,14 @@ The rich information available to unsupervised learning has been proven to be ve
 
 > Good representation learnt by unsupervised learning is the key to solve RL's biggest deficiency: sample efficiency.
 
-Besides learning good representation, unsupervised learning also enables generative modeling of the world, an essential component for agents that are not just reactive but able to perform planning in long horizon. The god father of Reinforcement Learning, Rich Sutton, once proposed an architecture called Dyna in which the main idea is to **try things in your head before actiing**. He claimed that:
+Besides learning good representation, unsupervised learning also enables generative modeling of the world, an essential component for agents that are not just reactive but able to perform planning in long horizon. The god father of Reinforcement Learning, Rich Sutton, once proposed an architecture called Dyna in which the main idea is to **try things in your head before acting**. He claimed that:
 
 > The main idea of Dyna is the old, commonsense idea that planning is *trying things in your head* using an internal
 model of the world. This suggests the existence of a more primitive process for trying things not in your head, but through direct
 interaction with the world. Reinforcement learning is the name we use for this more primitive, direct kind of trying,
 and Dyna is the extension of reinforcement learning to include a learned world model.
 
-This is very intuitive, see this [funny birds video](https://www.youtube.com/watch?v=LI92DLRdKYE) for how important to think before you act :)
+This is very intuitive, see this [funny birds video](https://www.youtube.com/watch?v=LI92DLRdKYE) for how helpful if you think before you act :)
 
 Finally, from the perspective of Data Science [2]: 
 
