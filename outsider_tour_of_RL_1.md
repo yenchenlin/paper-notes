@@ -1,6 +1,6 @@
 ## [Make It Happen](http://www.argmin.net/2018/01/29/taxonomy/)
 
-The author motivates why RL is harder and more important than supervised and unsupervised learning.
+The author motivates why RL is harder and more important than supervised and unsupervised learning. However, I don't fully agree with these arguments, see **My Two Cents** section at the bottom for my justification.
 
 ### Key Points
 
@@ -15,7 +15,7 @@ The author motivates why RL is harder and more important than supervised and uns
 
 <img src="https://user-images.githubusercontent.com/7057863/43361653-579f3e50-9307-11e8-944f-d62ca11c92b1.png" alt="drawing" width="400px"/>
 
-- According to the figurer above, the author claims that 
+- According to the figurer above, the author claims that:
 
   1. Unsupervised Searning is by far the easiest of the three types of ML problems because the stakes are low. There is no wrong answer for summarization.
   2. Supervised Learning is more challenging as we can evaluate accuracy in a principled manner on new data.
@@ -26,20 +26,35 @@ The author motivates why RL is harder and more important than supervised and uns
 
 ### My two cents
 
-According to [1], 
-`
-prescriptive analytics leverages predictive analytics and descriptive analytics to derive ideal outcomes or solutions from helping you solve business problems
-`
+I think the author goes too far to motivate the value of RL by disdaining other ML regimes. 
 
-`
-It takes predictive analytics further by helping you see what the probable outcome relies on each decision. That helps you to decide what business decision to make.
-`
+Let's summon Yann Lecun's cake again:
 
-In addition to the 
+<img src="https://user-images.githubusercontent.com/7057863/43362008-5a39a26c-9312-11e8-956e-f73df1c76dbd.jpg" alt="drawing" width="400px"/>
 
-Automated analytics requires safe ML system
+The rich information available to unsupervised learning has been proven to be very helpful for RL agent as auxialiary tasks [1]. In several Lecun's talks, he also emphasizes that:
+
+> Good representation learnt by unsupervised learning is the key to solve RL's biggest deficiency: sample efficiency.
+
+Besides learning good representation, unsupervised learning also enables generative modeling of the world, which is a core and essential component for agents that are not just reactive but able to perform planning in long horizon. The god father of Reinforcement Learning, Rich Sutton, once proposed an architecture called Dyna in which the main idea is to **try things in your head before actiing**. He claimed that:
+
+> The main idea of Dyna is the old, commonsense idea that planning is `trying things in your head` using an internal
+model of the world. This suggests the existence of a more primitive process for trying things not in your head, but through direct
+interaction with the world. Reinforcement learning is the name we use for this more primitive, direct kind of trying,
+and Dyna is the extension of reinforcement learning to include a learned world model
+
+Finally, from the perspective of Data Science [2]: 
+
+> prescriptive analytics is about helping you see what the probable outcome relies on each decision. That helps you to decide what business decision to make.
+
+According to this definition, it's clear that generative modeling lies at the heart of prescriptive analytics and directly classifying unsupervised learning into descriptive analytics is unfair.
+
+In conclusion, I think it's inappropriate to argue that a) Unsupervised Learning has lower values compared to RL and b) draw one-to-one connection between the three regimes in ML and Data Science. Different regimes in ML are actually complementary to each other to enable **Prescriptive Analytics**.
+
+What are some more inspirations we can draw from the field of Data Science? According to [3], expert recently postulated that **Automated Analytics** is a further extension to **Prescriptive Analytics**, eliminating the need for the human to make the final decision according to prescriptive analytics. In my opinion, as functions produced by machine learning algorithms gradually get used in important applications, their security and robustness becomes more crucial than ever before. More advances in ML safety would be essential for **Automated Analytics**.
 
 ### Reference
 
-[1] [Why Prescriptive Analytics Is the Future of Big Data](https://www.linkedin.com/pulse/why-prescriptive-analytics-future-big-data-mark-van-rijmenam/)
-[2] [Predictive Analytics - A Case For Private Equity?](https://www.forbes.com/sites/lutzfinger/2015/02/10/predictive-analytics-case-for-private-equity/#234d26097584)
+[1] [Reinforcement Learning with Unsupervised Auxiliary Tasks](https://arxiv.org/abs/1611.05397)
+[2] [Why Prescriptive Analytics Is the Future of Big Data](https://www.linkedin.com/pulse/why-prescriptive-analytics-future-big-data-mark-van-rijmenam/)
+[3] [Predictive Analytics - A Case For Private Equity?](https://www.forbes.com/sites/lutzfinger/2015/02/10/predictive-analytics-case-for-private-equity/#234d26097584)
