@@ -45,9 +45,9 @@ and Dyna is the extension of reinforcement learning to include a learned world m
 
 This is very intuitive, see this [funny birds video](https://www.youtube.com/watch?v=LI92DLRdKYE) for how important to think before you act :)
 
-Moreover, generative model is useful for exploration in RL[4] and provides a different paradigm to implement cognitive science-motivated behaviorl learning[5].
+Moreover, generative model is useful for exploration in RL[2] and provides a different paradigm to implement cognitive science-motivated behavior learning[3].
 
-Finally, from the perspective of Data Science [2]: 
+Finally, from the perspective of Data Science [4]: 
 
 > prescriptive analytics is about helping you see what the probable outcome relies on each decision. That helps you to decide what business decision to make.
 
@@ -55,16 +55,16 @@ According to this definition, it's clear that generative modeling lies at the he
 
 In conclusion, I think it's inappropriate to argue that a) Unsupervised Learning has lower values compared to RL and b) there is an one-to-one connection between the three regimes in ML and Data Science. Different regimes in ML are actually complementary to each other in order to build **Prescriptive Analytics**.
 
-What are some more inspirations we can draw from the field of Data Science? According to [3], expert recently postulated that **Automated Analytics** is a further extension to **Prescriptive Analytics**, eliminating the need for the human to make the final decision according to prescriptive analytics. In my opinion, as functions produced by machine learning algorithms gradually get used in important applications, their security and robustness becomes more crucial than ever before. More advances in ML safety would be essential for **Automated Analytics**.
+What are some more inspirations we can draw from the field of Data Science? According to [5], expert recently postulated that **Automated Analytics** is a further extension to **Prescriptive Analytics**, eliminating the need for the human to make the final decision according to prescriptive analytics. In my opinion, as functions produced by machine learning algorithms gradually get used in important applications, their security and robustness becomes more crucial than ever before. More advances in ML safety would be essential for **Automated Analytics**.
 
 ### Reference
 
 [1] [Reinforcement Learning with Unsupervised Auxiliary Tasks](https://arxiv.org/abs/1611.05397)
 
-[2] [Why Prescriptive Analytics Is the Future of Big Data](https://www.linkedin.com/pulse/why-prescriptive-analytics-future-big-data-mark-van-rijmenam/)
+[2] [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/abs/1705.05363)
 
-[3] [Predictive Analytics - A Case For Private Equity?](https://www.forbes.com/sites/lutzfinger/2015/02/10/predictive-analytics-case-for-private-equity/#234d26097584)
+[3] [Zero-Shot Visual Imitation](https://arxiv.org/abs/1804.08606)
 
-[4] [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/abs/1705.05363)
+[4] [Why Prescriptive Analytics Is the Future of Big Data](https://www.linkedin.com/pulse/why-prescriptive-analytics-future-big-data-mark-van-rijmenam/)
 
-[5] [Zero-Shot Visual Imitation](https://arxiv.org/abs/1804.08606)
+[5] [Predictive Analytics - A Case For Private Equity?](https://www.forbes.com/sites/lutzfinger/2015/02/10/predictive-analytics-case-for-private-equity/#234d26097584)
