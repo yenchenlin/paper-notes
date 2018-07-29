@@ -45,7 +45,7 @@ and Dyna is the extension of reinforcement learning to include a learned world m
 
 This is very intuitive, see this [funny birds video](https://www.youtube.com/watch?v=LI92DLRdKYE) for how important to think before you act :)
 
-Moreover, generative model is useful for exploration in RL[2] and provides a different paradigm to implement cognitive science-motivated behavior learning[3].
+Moreover, generative model is useful for exploration in RL [2] and provides a different paradigm to implement cognitive science-motivated behavior learning [3].
 
 Finally, from the perspective of Data Science [4]: 
 
