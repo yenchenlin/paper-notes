@@ -6,6 +6,8 @@ The author proposed a model-based method to learn policy. Specifically, the syst
 2. Future predictor (M)
 3. Controller (C)
 
+![](https://user-images.githubusercontent.com/7057863/44424238-81e77400-a556-11e8-88b1-7bab14386569.png)
+
 The author shows that it's possible to train a controller in a simulated environment.
 
 ### Key Points
