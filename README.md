@@ -1,5 +1,10 @@
 # paper-notes
 
+### 2018 / 12
+- [Combining Physical Simulators and Object-Based Networks for Control](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/sain.md)
+- [Graph Networks as Learnable Physics Engines for Inference and Control](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/gn_physics_engine.md)
+
+
 ### 2018 / 08
 - [World Models](https://github.com/yenchenlin/deep-learning-paper-notes/blob/master/notes/world_models.md)
 
